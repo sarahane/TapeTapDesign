@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TapeTapDesign</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_pass">Forgot your password?</string>
+    <string name="add_user">Add new user!</string>
+    <string name="psw">Enter username</string>
+    <string name="pswd">Enter your password</string>
 </resources>
