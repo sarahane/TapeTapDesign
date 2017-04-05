@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">TapeTapDesign</string>
     <string name="log_in">Log in</string>
-    <string name="forgot_pass">Forgot your password?</string>
-    <string name="add_user">Add new user!</string>
+    <string name="forgot_pass"> Forgot your password? </string>
+    <string name="add_user"> Add new user!</string>
     <string name="psw">Enter username</string>
     <string name="pswd">Enter your password</string>
     <string name="pwd2" translatable="false">Repeat password</string>
     <string name="user">Enter username</string>
     <string name="pwd1">Enter password</string>
     <string name="e_mail">Enter e-mail</string>
+    <string name="add_us" translatable="false">+ Add User</string>
+    <string name="plus">+</string>
+    <string name="question">\?</string>
+    <string name="add_new">Add a new user!</string>
+    <string name="req_password">Request password</string>
+    <string name="info_req_pass">We will send <br> you a link so </br> that you can \n reset your password </string>
+    <string name="send_pass">SEND</string>
 </resources>

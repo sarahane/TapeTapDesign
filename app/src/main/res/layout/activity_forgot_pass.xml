@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarahane.tapetapdesign.ForgotPass"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tapetaplogo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linear" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/whitesq2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/whiteback" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/req_password"
+        android:textAlignment="center"
+        android:textColor="#0080ff"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/add_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:typeface="monospace"
+        android:background="@drawable/text_back"
+        />
+
+    <EditText
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your e-mail"
+        android:textAlignment="center"
+        android:textColor="#0080ff"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="and we will send"
+        android:textAlignment="center"
+        android:textColor="#0080ff"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <EditText
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="170dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="you a new password"
+        android:textAlignment="center"
+        android:textColor="#0080ff"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        />
+
+    <Button
+        android:id="@+id/add_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_but"
+        android:text="@string/send_pass"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</RelativeLayout>

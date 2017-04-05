@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddUSer" />
+        <activity android:name=".Menu" />
+        <activity android:name=".ForgotPass"></activity>
     </application>
 
 </manifest>
