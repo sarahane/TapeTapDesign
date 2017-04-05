@@ -5,4 +5,8 @@
     <string name="add_user">Add new user!</string>
     <string name="psw">Enter username</string>
     <string name="pswd">Enter your password</string>
+    <string name="pwd2" translatable="false">Repeat password</string>
+    <string name="user">Enter username</string>
+    <string name="pwd1">Enter password</string>
+    <string name="e_mail">Enter e-mail</string>
 </resources>
