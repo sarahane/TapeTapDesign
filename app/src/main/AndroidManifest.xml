@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".AddUSer" />
         <activity android:name=".Menu" />
-        <activity android:name=".ForgotPass"></activity>
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".ChildMenu" />
+        <activity android:name=".EditUser" />
+        <activity android:name=".ViewPic"></activity>
+
     </application>
 
 </manifest>

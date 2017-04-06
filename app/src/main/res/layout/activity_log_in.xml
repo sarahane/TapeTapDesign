@@ -28,7 +28,21 @@
             android:src="@drawable/whiteback"/>
 
     </LinearLayout>
-
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LOG IN BELOW!"
+        android:textAlignment="center"
+        android:textColor="#0080ff"
+        android:textStyle="bold"
+        android:typeface="monospace" />
     <EditText
         android:id="@+id/username"
         android:layout_width="wrap_content"
@@ -114,6 +128,7 @@
         android:background="@drawable/green_but"
         android:text="@string/log_in"
         android:textColor="#FFFFFF"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="gotoChildMenu"/>
 </RelativeLayout>
 

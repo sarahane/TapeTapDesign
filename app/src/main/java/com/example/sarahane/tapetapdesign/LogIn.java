@@ -23,5 +23,10 @@ public class LogIn extends AppCompatActivity {
     public void gotoForgotPass(View v){
         startActivity(new Intent(LogIn.this, ForgotPass.class));
     }
+
+    public void gotoChildMenu(View v){
+        startActivity(new Intent(LogIn.this, ChildMenu.class));
+    }
+
 }
 

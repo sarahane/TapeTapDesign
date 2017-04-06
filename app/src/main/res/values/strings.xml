@@ -16,4 +16,6 @@
     <string name="req_password">Request password</string>
     <string name="info_req_pass">We will send <br> you a link so </br> that you can \n reset your password </string>
     <string name="send_pass">SEND</string>
+    <string name="child_name">ALVA</string>
+    <string name="edit_user">Edit user info</string>
 </resources>
