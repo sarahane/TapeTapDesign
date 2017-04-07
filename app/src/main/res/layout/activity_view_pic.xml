@@ -4,60 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sarahane.tapetapdesign.ViewPic"
-    android:background="@drawable/alva">
-    <GridLayout
-        android:id="@+id/header_pic_mode"
-        android:rowCount="1"
-        android:columnCount="3"
+    tools:context="com.example.sarahane.tapetapdesign.ViewPic">
+
+    <TextView
+        android:id="@+id/headerpic"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/text_back"
+        android:layout_height="0dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-        <ImageView
-            android:id="@+id/home"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/home"
-            android:layout_alignParentLeft="true"/>
+        android:textSize="40sp"
+        android:background="@drawable/text_back_white"
+        android:textAlignment="center"/>
 
-        <ImageView
-            android:id="@+id/gallery"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_column="2"
-            android:layout_marginEnd="@+id/header_pic_mode"
-            android:layout_marginRight="@+id/header_pic_mode"
-            android:layout_row="0"
-            android:src="@drawable/gallery" />
-    </GridLayout>
-
-    <GridLayout
-        android:id="@+id/bottom_pic_mode"
-        android:rowCount="1"
-        android:columnCount="3"
+    <ImageView
+        android:id="@+id/pic_tap"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerpic"
+        android:src="@drawable/alva"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/pic_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/text_back">
+        android:text="ALVA"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:background="@drawable/text_back"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/home"
+        android:layout_alignLeft="@id/headerpic"
+        android:layout_alignStart="@id/headerpic"/>
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/gallery"
+        android:layout_alignRight="@id/headerpic"
+        android:layout_alignEnd="@id/headerpic"/>
 
-        <TextView
-            android:id="@+id/namn_bild"
-            android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:ems="10"
-            android:textSize="60sp"
-            android:text="Alva"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:typeface="monospace" />
-    </GridLayout>
-
+    <ImageView
+        android:id="@+id/left_arrow"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/left"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:id="@+id/right_arrow"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
 
 </RelativeLayout>
