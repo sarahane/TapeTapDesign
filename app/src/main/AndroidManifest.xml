@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddUSer" />
+        <activity android:name=".AddUser" />
         <activity android:name=".Menu" />
         <activity android:name=".ForgotPass" />
         <activity android:name=".ChildMenu" />

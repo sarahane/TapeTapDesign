@@ -17,7 +17,7 @@ public class LogIn extends AppCompatActivity {
     // Lägg även till i Manifest
 
     public void gotoAddUser(View v){
-        startActivity(new Intent(LogIn.this, AddUSer.class));
+        startActivity(new Intent(LogIn.this, AddUser.class));
     }
 
     public void gotoForgotPass(View v){

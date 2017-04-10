@@ -3,7 +3,7 @@ package com.example.sarahane.tapetapdesign;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class AddUSer extends AppCompatActivity {
+public class AddUser extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
